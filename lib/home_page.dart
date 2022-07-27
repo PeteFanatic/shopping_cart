@@ -73,6 +73,20 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 40),
           child: Row(
             children: [
+              GestureDetector(
+                child: Container(
+                  width: 60,
+                  height: 60,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      border:
+                          Border.all(color: const Color(0xFF716f72), width: 1)),
+                  child: const Icon(Icons.add),
+                ),
+                onTap: () {
+                  Provider.of<DataClass>(context, listen: false).incrementX();
+                },
+              ),
               const Spacer(),
               Container(
                 height: 60,
