@@ -121,8 +121,8 @@ class SecondPage extends StatelessWidget {
                     Flexible(
                       child: Container(
                         padding: const EdgeInsets.only(left: 20, right: 20),
-                        height: 60,
                         width: 180,
+                        height: 60,
                         decoration: BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(10),

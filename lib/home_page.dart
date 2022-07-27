@@ -75,8 +75,8 @@ class HomePage extends StatelessWidget {
             children: [
               GestureDetector(
                 child: Container(
-                  width: 60,
                   height: 60,
+                  width: 60,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       border:

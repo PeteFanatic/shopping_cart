@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => DataClass(),
       child: GetMaterialApp(
-          debugShowCheckedModeBanner: false,
           title: 'Shopping Cart',
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
+          debugShowCheckedModeBanner: false,
           home: const HomePage()),
     );
   }
